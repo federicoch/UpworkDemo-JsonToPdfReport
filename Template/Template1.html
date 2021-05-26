@@ -1,0 +1,57 @@
+<html>
+<header>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'
+        integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm' crossorigin='anonymous'>
+</header>
+
+<body>
+    <div class='container-fuild'>
+        <div class='row m-1'>
+            <div class='col'>
+                <h3>Table 1 </h3>
+                <table class='table'>
+                    <thead>
+                        <tr>
+                            <th scope='col'>#</th>
+                            <th scope='col'>Heading 1</th>
+                            <th scope='col'>Heading 2</th>
+                            <th scope='col'>Heading 3</th>
+                            <th scope='col'>Heading 4</th>
+                            <th scope='col'>Heading 5</th>
+                            <th scope='col'>Heading 6</th>
+                            <th scope='col'>Heading 7</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                      {TABLE1_ROWS}
+                        <tr>
+                            <th scope='row'></th>
+                            <td colspan='7'>Signed By: {SIGNATURE}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class='row mt-5 mx-1 mb-1'>
+            <div class='col'>
+                <h3>Table 2 </h3>
+                <table class='table'>
+                    <thead>
+                        <tr>
+
+                            <th scope='col'>Heading 1</th>
+                            <th scope='col'>Heading 2</th>
+                            <th scope='col'>Heading 3</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                       {TABLE2_ROWS}              
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+<html>
